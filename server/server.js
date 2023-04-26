@@ -24,7 +24,7 @@ app.use(cors())
 // https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/13559534#overview
 // db config 
 const connection = "mongodb://db:27017/slackchannels";
-// const connection = "mongodb://localhost:27017/slackchannels";
+// const connection = "mongodb://mongodb:mongodb@127.0.0.1:27017/mern-crud?retryWrites=true&w=majority";
 
 mongoose.connect(connection, {
  
